@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root, html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100svh;
+}
+
+@font-face {
+    font-family: "barbra";
+    src: url("./fonts/Barbra-High.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "barbraI";
+    src: url("./fonts/Barbra-HighItalic.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
