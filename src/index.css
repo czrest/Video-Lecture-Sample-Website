@@ -2,23 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-#root, html, body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    min-height: 100svh;
+#root,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100svh;
 }
 
 @font-face {
-    font-family: "barbra";
-    src: url("./fonts/Barbra-High.ttf") format(truetype);
-    font-weight: normal;
-    font-style: normal;
+  font-family: "barbra";
+  src: url("./fonts/Barbra-High.ttf") format(truetype);
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "barbraI";
-    src: url("./fonts/Barbra-HighItalic.ttf") format(truetype);
-    font-weight: normal;
-    font-style: normal;
+  font-family: "barbraI";
+  src: url("./fonts/Barbra-HighItalic.ttf") format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card:nth-child(2){
+  padding: 8rem;
+}
+.card:nth-child(3){
+  padding: 6rem;
+}
+.card:nth-child(4){
+  padding: 4rem;
+}
+.card:nth-child(5){
+  padding: 2rem;
+}
+
+#Hero-Section h1 {
+  background: linear-gradient(40deg, #ff004c, #d15cff, #2ed9ff, #6967ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
